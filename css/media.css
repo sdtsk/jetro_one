@@ -1,0 +1,130 @@
+@media screen and (max-width: 956px) {
+    .slider__nav {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 930px) {
+    .topics__inner {
+        flex-wrap: wrap;
+    }
+    .topics__item {
+        width: 50%;
+        margin: 0 auto;
+    }
+    .topics__text {
+        padding-right: 25px;
+    }
+    .works__list {
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+    .works__list-box {
+        width: 50%;
+        margin-bottom: 20px;
+    }
+    .works__example {
+        margin: 0 auto;
+    }
+    .works__title {
+        margin-left: 12%;
+    }
+}
+
+@media screen and (max-width: 860px) {
+    .footer__inner {
+        flex-wrap: wrap;
+    }
+    .footer__blocks {
+        margin-bottom: 20px;
+    }
+    .block-1 {
+        width: 50%;
+        padding-right: 20px;
+    }
+    .block-2 {
+        width: 50%;
+    }
+    .block-3 {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 838px) {
+    .topics__item {
+        width: 75%;
+        margin: 0 auto;
+    }
+    .topics__text {
+        padding-right: 0;
+    }
+}
+
+@media screen and (max-width: 580px) {
+    .header__menu-btn {
+        display: block;
+        /* margin-top: 7px; */
+        margin-right: 5px;
+    }
+    .header__menu ul {
+        display: none;
+        position: absolute;
+        z-index: 2;
+        top: 78px;
+        left: 0;
+        right: 0;
+        width: 100%;
+        background-color: #fff;
+        padding: 0;
+        margin-top: 0;
+        border-bottom: 5px solid #e8603c;
+    }
+    .header__menu li {
+        display: block;
+        text-align: center;
+    }
+    .header__menu a {
+        display: block;
+        padding: 5px 0;
+        margin-top: 0;
+    }
+    .header__menu a:hover {
+        background-color: #f1ebe9;
+    }
+    .header__menu li + li {
+        margin-left: 0;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .slider__item-box {
+        width: 100%;
+        left: 0;
+    }
+    .works__list-box {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    .footer__blocks {
+        width: 100%;
+    }
+    .block-1 {
+        padding-right: 0;
+    }
+    .works__title {
+        text-align: center;
+        margin-left: 0;
+    }
+}
+
+@media screen and (max-width: 395px) {
+    .topics__title {
+        font-size: 20px;
+    }
+}
+
+@media screen and (min-width: 580px) {
+    .header__menu ul {
+        display: block !important;
+    }
+}
